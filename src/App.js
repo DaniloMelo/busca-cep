@@ -4,12 +4,14 @@ import Form from './Components/Form'
 
 function App() {
 
-  const [cep, setCep] = useState()
-  console.log(`agora vai? ${cep}`)
+  const [data, setData] = useState()
+
+  console.log(data)
+
   return (
     <div className="App">
       <h1> Busca CEP</h1>
-      <Form getCep={cep => setCep(cep)}/>
+      <Form getData={cep => setData(cep)}/>
 
     </div>
   );

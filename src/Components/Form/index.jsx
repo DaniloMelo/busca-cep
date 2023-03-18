@@ -8,7 +8,10 @@ const Form = props => {
 
     const onNewSearch = (event) => {
         event.preventDefault()
-        props.getCep(cep)
+        fetch(`https://viacep.com.br/ws/${cep}/json/`)
+            .then(res => res.json())
+            .then(data => props.getData(data))
+
     }
 
     return(
