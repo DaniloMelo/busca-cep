@@ -2,10 +2,11 @@ import './TextField.css'
 
 const TextField = props => {
 
-    return(
-        <p className='textField'>
-       
-        </p>
+    return (
+        <div className='textField'>
+            <label>{props.label}</label>
+            <p>{props.info}</p>
+        </div>
     )
 }
 

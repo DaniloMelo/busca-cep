@@ -3,9 +3,14 @@ import TextField from '../TextField'
 
 const AddressInfo = props => {
 
+    console.log(props.data.logradouro)
+
     return(
         <section className='AddresInfo'>
-            <TextField />
+            <TextField label='Rua' info={props.data.logradouro}/>
+            <TextField label='Bairro' info={props.data.bairro}/>
+            <TextField label='Cidade' info={props.data.localidade}/>
+            <TextField label='Estado' info={props.data.uf}/>
         </section>
     )
 }
