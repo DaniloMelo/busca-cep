@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './App.css';
+import AddresInfo from './Components/AddressInfo'
 import Form from './Components/Form'
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <div className="App">
       <h1> Busca CEP</h1>
       <Form getData={cep => setData(cep)}/>
-
+      <AddresInfo />
     </div>
   );
 }

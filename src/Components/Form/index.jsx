@@ -11,7 +11,6 @@ const Form = props => {
         fetch(`https://viacep.com.br/ws/${cep}/json/`)
             .then(res => res.json())
             .then(data => props.getData(data))
-
     }
 
     return(
