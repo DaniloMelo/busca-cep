@@ -10,6 +10,7 @@
 .input-container{
     display: flex;
     justify-content: center;
+    transform: translateX(20px);
 }
 
 .input-container button {

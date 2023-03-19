@@ -4,6 +4,7 @@
   background: #ffffff;
   width: 90vw;
   max-width: 700px;
+  min-width: 300px;
   box-shadow: 3px 3px 5px rgb(170, 171, 191);
 }
 
@@ -11,5 +12,4 @@
   text-align: center;
   color: #3342b6;
   font-family: 'Karla', sans-serif;
- 
 }
