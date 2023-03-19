@@ -1,0 +1,18 @@
+.textField {
+    border-bottom: 1px solid #bfbfbf;
+    margin: 12px 0 12px 0;
+
+}
+
+.textField label {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.textField p {
+    font-family: 'Karla', sans-serif;
+    margin-top: 8px;
+    font-size: 1.1em;
+    font-weight: 300;
+}

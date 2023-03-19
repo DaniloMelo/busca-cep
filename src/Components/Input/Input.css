@@ -1,12 +1,13 @@
 .input {
     height: 20px;
-    width: 40%;
+    width: 150px;
     margin: 8px;
     height: 32px;
     font-size: 1.2em;
     border: 1px solid #aeafbf;
     border-radius: 5px;
     font-family: 'Karla', sans-serif;
+    font-weight: 300;
     color: #595959;
     padding: 0 1em 0 1em
 }
