@@ -1,11 +1,24 @@
 .form form label{
+    font-family: 'Karla', sans-serif;
     display: block;
     text-align: center;
     padding: .5em;
     font-size: 1.2em;
+    font-weight: lighter;
 }
 
 .input-container{
     display: flex;
     justify-content: center;
+}
+
+.input-container button {
+    border: none;
+    background: #FFF;
+    width: 50px;
+}
+
+.input-container button svg {
+    font-size: 2em;
+    color: #3342b6
 }

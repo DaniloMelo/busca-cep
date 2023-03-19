@@ -1,3 +1,4 @@
+import {FaSearch} from 'react-icons/fa'
 import { useState } from 'react'
 import Input from '../Input'
 import './Form.css'
@@ -19,7 +20,7 @@ const Form = props => {
                 <label>Digite o CEP</label>
                 <div className='input-container'>
                     <Input inputHandler={num => setCep(num)} value={cep} />
-                    <button>Buscar</button>
+                    <button><FaSearch/></button>
                 </div>
             </form>
         </section>
