@@ -4,8 +4,9 @@ const Input = props => {
 
     return(
         <input type="number" 
-               value={props.value} 
-               onChange={e => props.inputHandler(e.target.value)}
+            className='input'
+            value={props.value} 
+            onChange={e => props.inputHandler(e.target.value)}
         />
     )
 }

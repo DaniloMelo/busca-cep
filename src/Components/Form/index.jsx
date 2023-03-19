@@ -13,12 +13,14 @@ const Form = props => {
             .then(data => props.getData(data))
     }
 
-    return(
+    return (
         <section className='form'>
             <form onSubmit={onNewSearch}>
                 <label>Digite o CEP</label>
-                <Input inputHandler={ num => setCep(num)} value={cep} />
-                <button>VAAAAAAAI</button>
+                <div className='input-container'>
+                    <Input inputHandler={num => setCep(num)} value={cep} />
+                    <button>Buscar</button>
+                </div>
             </form>
         </section>
     )
