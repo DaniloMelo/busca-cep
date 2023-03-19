@@ -3,7 +3,6 @@ import TextField from '../TextField'
 
 const AddressInfo = props => {
 
-    console.log(props.data.logradouro)
 
     return(
         <section className='AddresInfo'>

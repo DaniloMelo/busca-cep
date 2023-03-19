@@ -1,0 +1,5 @@
+.form form label{
+    display: block;
+    text-align: center;
+    padding: .5em;
+}
